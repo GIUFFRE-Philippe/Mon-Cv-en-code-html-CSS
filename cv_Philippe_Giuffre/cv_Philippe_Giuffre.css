@@ -1,0 +1,189 @@
+html {
+    background: #ffffff;
+}
+
+body {
+    background: #ffffff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: 'Stick No Bills', sans-serif;
+    line-height: 1.5;
+    margin: 1px auto;
+    max-width: 1000px;
+    padding: 20px 30px 20px 250px;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #000000;
+}
+
+h1 {
+    font-size: 92px;
+    font-weight: 600;
+    line-height: 1;
+    color: #3f3c46;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 200;
+    font-style: italic; 
+    margin-top: 20px;
+    line-height: 1;
+}
+
+h3 {
+    margin-top : 50px;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(238, 56, 56);
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 16px;
+    color: #545454;
+}
+
+a {
+    color: #0e21c5;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+img.phototof {
+    width: 450px;
+    border: 10px solid #000000;
+    border-radius: 4px;
+    display: block;
+    margin-left: 15%;
+    margin-right: 50%; 
+    animation: rotation 5s infinite linear;   
+}
+.Messi 
+ {
+    width: 280px;
+    border: 0px solid #000000;
+    border-radius: 4px;
+    display: block;
+    margin-left: 2%;
+    margin-right: 50%;
+    animation: rotation 4s infinite linear;
+
+}
+
+@keyframes rotation {
+from { transform: rotateY(0);}
+to { transform : rotateY(360deg);}
+}
+
+
+@media screen and (min-width: 600px)
+{
+    h1
+    {
+        font-size: 100px;
+    } 
+    h2 
+    
+    {
+        font-size: 55px;
+    }
+    h3
+    {
+        font-size: 45px;
+    }
+    h4
+    {
+        font-size: 30px;
+    }
+    p:first-of-type
+    {
+        font-size: 28px;
+        color:seagreen    
+    }  
+}
+
+@media screen and (max-width: 600px) 
+{
+    h1
+    {
+        font-size: 100px;
+    }
+    h2
+    {
+        font-size: 55px;
+    }
+    h3
+    {
+        font-size: 45px;
+    }
+    h4
+    {
+        font-size: 35px;
+    }
+    p
+    {
+        font-size: 28px;
+    
+    }
+}
+
+@media screen and (max-width: 992px) 
+{
+    h1
+    {
+        font-size: 100px;
+    }
+    h2
+    {
+        font-size: 55px;
+    }
+    h3
+    {
+        font-size: 45px;
+    }
+    h4
+    {
+        font-size: 35px;
+    }
+    p
+    {
+        font-size: 28px;
+        
+    }
+
+}    
+
+@media screen and (max-width: 1200px) 
+{
+    h1
+    {
+        font-size: 100px;
+    }
+    h2
+    {
+        font-size: 55px;
+    }
+    h3
+    {
+        font-size: 45px;
+    }
+    h4
+    {
+        font-size: 35px;
+    }
+    p
+    {
+        font-size: 28px;
+        
+    }
+
+}       
